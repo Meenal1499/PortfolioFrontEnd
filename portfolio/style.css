@@ -1,0 +1,403 @@
+body {
+    font-family: 'Cambria';
+    line-height: 25px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+
+section {
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+.btn {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.set-bk-clr {
+    background-color: #FF2276;
+}
+
+.clr-set {
+    color: #FF2276;
+}
+
+.f-big {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.set-bk-clr:hover {
+    background-color: rgba(107, 1, 41, 0.67);
+}
+/* NAVBAR STYLES */
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar-brand {
+padding:0px;
+}
+.navbar-brand img {
+        height:50px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+        background-color: #FFF;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: rgba(0, 0, 0, 0);
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 900;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        color: #000;
+        text-decoration: none;
+}
+.navbar-default {
+    background-color: #FF2276;
+    border-color: transparent;
+}
+/* ADDED PADDING IN NAVBAR */
+.navbar {
+    padding: 15px;
+    -webkit-transition: background .8s ease-out,padding .8s ease-out;
+    -moz-transition: background .8s ease-out,padding .8s ease-out;
+    transition: background .8s ease-out,padding .8s ease-out;
+}
+/* CLASS FOR REMOVING PADDING IN NAVBAR*/
+.navbar-pad-original {
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+
+/* HEADER SECTION STYLES */
+
+#header {
+    background: url(./images/home.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#header .overlay {
+        background-color: rgba(3, 3, 3, 0.8);
+        min-height: 700px;
+}
+
+#header h1 {
+        line-height: 60px;
+        font-size: 45px;
+        font-weight: 900;
+        padding-top: 180px;
+        padding-bottom: 35px;
+        color: #FF2276;
+   }
+
+
+#header h4 {
+    line-height: 30px;
+    font-size: 12px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/* ACADEMIC SECTION STYLES */
+
+#academic {
+    background-color: rgba(237, 237, 237, 1);
+}
+
+#academic i {
+    padding: 20px;
+    color: #FF2276;
+}
+
+#academic p {
+    margin-top: -20px;
+}
+
+#academic h3 {
+    margin-top: -40px;
+}
+
+/* SKILLS SECTION STYLES */
+
+#skills {
+    background: url(./images/skills.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+#skills .overlay {
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 90px;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.skills-carousel {
+    margin-top: 50px;
+    padding: 0 30px 30px 30px;
+}
+
+.skills-carousel .thumbnail {
+    border: 1px solid #FF2276;
+}
+
+.skills-carousel .carousel-control.left {
+    height: 30px;
+    width: 25px;
+    margin-top: 45px;
+    background: #FF2276;
+    left: -15px;
+}
+
+.skills-carousel .carousel-control.right {
+    height: 30px;
+    width: 25px;
+    margin-top: 45px;
+    background: #FF2276;
+    right: -15px;
+}
+
+.skills-carousel img {
+    width: 100%;
+    height: 120px;
+}
+
+#skills .thumbnail {
+    background-color: transparent;
+}
+
+/* WORK SECTION STYLES */
+
+/* FOR CHANGING COLOR OF ACTIVE CATEGORY */
+/*.categories a.active {
+    background-color: #FF2276;
+    border: 2px solid #FF2276;
+}*/
+
+#work{
+    margin-top: -50px;
+    margin-bottom: -150px;
+}
+
+#work1 .hovereffect {
+  /*width: 100%;
+  height: 100%;*/
+  /*float: left;*/
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  border: 2px solid #FF2276;
+  padding: 2px;
+  margin: 5px 5px 10px 5px;
+}
+
+#work1 .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  /*background-color: rgba(75,75,75,0.7);*/
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#work1 .hovereffect:hover .overlay {
+ /* background-color: rgba(48, 152, 157, 0.4);*/
+ background-color: rgba(0,0,0,0.4);
+}
+
+#work1 img {
+  /*display: block;*/
+  /*position: static;*/
+  
+  /*margin: 5px 5px 5px 5px;*/
+  width: 350px;
+  height: 280px;
+}
+
+#work1 .hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#work1 .hovereffect:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+#work1 .hovereffect a.info {
+  /*display: inline-block;*/
+  text-decoration: none;
+  /*padding: 7px 14px;*/
+  /*text-transform: uppercase;*/
+  color: #fff;
+  /*border: 1px solid #fff;*/
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  /*font-weight: normal;*/
+  /*margin: -52px 0 0 0;*/
+  /*padding: 62px 100px;*/
+}
+
+#work1 .hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+#work1 .hovereffect a.info:hover {
+  /*box-shadow: 0 0 5px #fff;*/
+}
+
+#work2 .work-wrapper {
+    border: 2px solid #FF2276;
+    padding: 2px;
+    margin: 5px 5px 10px 5px;
+}
+
+#work2 img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    opacity: 0.9;
+    width: 350px;
+    height: 280px;
+}
+
+#work2 img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    opacity: 1;
+}
+
+/* EXTRA SECTION STYLES */
+
+#extra  {
+    background: url(./images/extra.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+#extra .overlay {
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 90px;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*POSITION SECTION STYLES */
+
+#position {
+    background-color: rgba(237, 237, 237, 1);
+    margin-bottom: -120px;
+}
+
+/*.media img {
+    margin-right: 40px;
+    max-height: 150px;
+    margin-bottom: 20px;
+    border: 2px solid #FF2276;
+}
+
+.media img:hover {
+    opacity: 0.6;
+}*/
+
+#position i {
+    color: #FF2276;
+}
+
+/* CONTACT SECTION STYLES */
+
+#contact {
+    background: url(./images/contact.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact .overlay {
+    background-color: rgba(0,0,0,0.9);
+    padding-top: 90px;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contact i {
+    color: white;
+}
+
+/* FOOTER SECTION STYLES */
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgba(237, 237, 237, 1);
+}
+
+footer a, footer a:hover {
+    color: #000;
+    text-decoration: none;
+}
